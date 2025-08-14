@@ -1,12 +1,111 @@
-# React + Vite
+# Leaning Tree Campground Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive website for Leaning Tree Campground built with React and Bootstrap.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a modern, responsive website for Leaning Tree Campground that showcases the campground's amenities, features, testimonials, and provides contact information. The site is designed to help potential visitors learn about the campground and make reservations.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design that works on mobile, tablet, and desktop devices
+- Interactive navigation bar
+- Hero section with call-to-action
+- Features/amenities showcase
+- Customer testimonials
+- Contact form for inquiries and reservations
+- Footer with social media links
+- Prominent "Book Now" button
+
+## Technologies Used
+
+- React.js - Frontend library
+- Bootstrap 5 - CSS framework
+- React-Bootstrap - React components for Bootstrap
+- React Icons - Icon library
+- Vite - Build tool and development server
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/leaning-tree-campground.git
+   cd leaning-tree-campground
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Project Structure
+
+```
+leaning-tree-campground/
+├── public/
+│   └── assets/
+│       └── images/
+├── src/
+│   ├── components/
+│   │   ├── BookingButton.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Features.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   └── Testimonials.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## Component Overview
+
+- **Header**: Navigation bar with links to different sections
+- **Hero**: Main banner with background image and call-to-action
+- **Features**: Highlights of the campground's amenities
+- **Testimonials**: Customer reviews in a carousel format
+- **Contact**: Contact information and inquiry form
+- **Footer**: Copyright information and social media links
+- **BookingButton**: Fixed "Book Now" button for easy reservations
+
+## Customization
+
+- Update campground information in the respective components
+- Replace placeholder images with actual campground photos
+- Modify contact information in the Contact component
+- Adjust the styling to match your brand
+
+## Deployment
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+The build files will be created in the `dist` directory, which can be deployed to any static site hosting service like Netlify, Vercel, or GitHub Pages.
+
+## Acknowledgements
+
+- [React](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [React Icons](https://react-icons.github.io/)
+- [Unsplash](https://unsplash.com/) - For placeholder images
