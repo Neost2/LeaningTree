@@ -28,7 +28,7 @@ function Contact() {
               </div>
               <div>
                 <h4 className="h6 mb-1">Phone</h4>
-                <p className="mb-0">(555) 123-4567</p>
+                <p className="mb-0">(918)964-6358</p>
               </div>
             </div>
             
@@ -38,7 +38,7 @@ function Contact() {
               </div>
               <div>
                 <h4 className="h6 mb-1">Email</h4>
-                <p className="mb-0">info@leaningtreecampground.com</p>
+                <p className="mb-0">candrejak@gmail.com</p>
               </div>
             </div>
             

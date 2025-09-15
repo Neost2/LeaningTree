@@ -4,22 +4,22 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 function Activities() {
   const activities = [
     {
-      image: "/src/assets/images/hiking.jpg",
+      image: "/src/assets/images/Hiking.jpg",
       title: "Hiking",
       description: "Explore acres of scenic trails with varying difficulty levels."
     },
     {
-      image: "/src/assets/images/fishing.jpg",
+      image: "/src/assets/images/Fishing.jpg",
       title: "Fishing",
       description: "Cast a line in our well-stocked lake for a variety of fish."
     },
     {
-      image: "/src/assets/images/swimming.jpg",
+      image: "/src/assets/images/Swimming.jpg",
       title: "Swimming",
       description: "Enjoy a refreshing swim in the crystal-clear lake."
     },
     {
-      image: "/src/assets/images/wildlife.jpg",
+      image: "/src/assets/images/Wildlife.jpg",
       title: "Wildlife Viewing",
       description: "Observe local wildlife in their natural habitat."
     }
