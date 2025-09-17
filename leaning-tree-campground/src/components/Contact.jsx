@@ -6,7 +6,24 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic
-    alert('Thank you for your message! We will get back to you soon.');
+    // Get form values
+  const name = e.target.elements[0].value;
+  const email = e.target.elements[1].value;
+  const subject = e.target.elements[2].value;
+  const message = e.target.elements[3].value;
+  
+  // Email configuration
+  const mailtoLink = `mailto:staff@leaningtreewoods.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
+  
+  // Open email client
+  window.location.href = mailtoLink;
+  
+  // Optional: Reset the form after submission
+  e.target.reset();
+  
+  // Optional: Show success message
+  alert('Email link generated. Your default email client should open.');
+    // alert('Thank you for your message! We will get back to you soon.');
   };
 
   return (
@@ -38,7 +55,7 @@ function Contact() {
               </div>
               <div>
                 <h4 className="h6 mb-1">Email</h4>
-                <p className="mb-0">candrejak@gmail.com</p>
+                <p className="mb-0">staff@leaningtreewoods.com</p>
               </div>
             </div>
             
@@ -48,7 +65,7 @@ function Contact() {
               </div>
               <div>
                 <h4 className="h6 mb-1">Address</h4>
-                <p className="mb-0">Jay, OK outside of Grand Lake</p>
+                <p className="mb-0">Jay, OK near Grand Lake. Text for a Google pin.</p>
               </div>
             </div>
           </Col>

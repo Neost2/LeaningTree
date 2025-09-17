@@ -6,18 +6,18 @@ function Features() {
   const features = [
     {
       icon: <FaCampground className="fs-1 text-success mb-3" />,
-      title: "Premium Campsites",
-      description: "Spacious, well-maintained sites with fire pits and picnic tables. Also Hvae shower and Bathroom facilities."
+      title: "Premium Glampsite",
+      description: "Spacious, well-maintained site with fire pit, picnic table, camping shower, camping toilet, and solar generator."
     },
     {
       icon: <FaSwimmingPool className="fs-1 text-success mb-3" />,
       title: "Swimming Area",
-      description: "Natural swimming area in the pristine lake."
+      description: "Natural swimming area nearby at Zena Cove."
     },
     {
       icon: <FaHiking className="fs-1 text-success mb-3" />,
-      title: "Hiking Trails",
-      description: "Access to scenic hiking trails for all skill levels."
+      title: "Hiking Trail",
+      description: "Access to scenic hiking trail for all skill levels."
     }
   ];
 

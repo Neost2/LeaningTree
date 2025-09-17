@@ -6,20 +6,20 @@ function Activities() {
     {
       image: "/src/assets/images/Hiking.jpg",
       title: "Hiking",
-      description: "Explore acres of scenic trails with varying difficulty levels."
+      description: "Challenge your fitness on our mile long trail or take the short route."
     },
     {
       image: "/src/assets/images/Fishing.jpg",
       title: "Fishing",
-      description: "Cast a line in our well-stocked lake for a variety of fish."
+      description: " Cast a line in Grand Lake for three types of bass, black and white crappy, or blue and channel catfish."
     },
     {
       image: "/src/assets/images/Swimming.jpg",
       title: "Swimming",
-      description: "Enjoy a refreshing swim in the crystal-clear lake."
+      description: " Take the heat out of summer by cooling off in the lake."
     },
     {
-      image: "/src/assets/images/Wildlife.jpg",
+      image: "/src/assets/images/Wildlife.png",
       title: "Wildlife Viewing",
       description: "Observe local wildlife in their natural habitat."
     }

@@ -8,7 +8,7 @@ function Header() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top" expanded={expanded}>
       <Container>
-        <Navbar.Brand href="#home">Leaning Tree Woods Campground</Navbar.Brand>
+        <Navbar.Brand href="#home">Leaning Tree Woods</Navbar.Brand>
         <Navbar.Toggle 
           aria-controls="basic-navbar-nav" 
           onClick={() => setExpanded(expanded ? false : true)} 

@@ -7,8 +7,8 @@ function Hero() {
       <Container>
         <Row className="justify-content-center text-center">
           <Col md={8} className="text-white">
-            <h1 className="display-3 fw-bold mb-4">Welcome to Leaning Tree Campground</h1>
-            <p className="lead mb-5">Experience the beauty of nature with our premium camping facilities</p>
+            <h1 className="display-3 fw-bold mb-4">Welcome to Leaning Tree Woods</h1>
+            <p className="lead mb-5">Experience the beauty of nature in solitude with our glamping campsite.</p>
             <Button 
               variant="success" 
               size="lg" 

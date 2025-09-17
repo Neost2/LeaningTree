@@ -5,19 +5,24 @@ import { FaStar } from 'react-icons/fa';
 function Testimonials() {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      text: "We had an amazing time at Leaning Tree Campground. The facilities were clean and the staff was extremely helpful.",
+      name: "Melinda D",
+      text: "Great place for hiking and getting away in the woods. The trails are very well marked and the ropes help those of us that are , let’s just say, out of shape😆. Will definitely be back. Carol has thought of everything you could need and then some! Love her and her land!",
       stars: 5
     },
     {
-      name: "Mike Peterson",
-      text: "Great location with beautiful views. The hiking trails were phenomenal and the campsites were well-maintained.",
+      name: "Amanda B.",
+      text: "Great place to stay. She had everything I needed all set up and ready to go. Will be going back. Very good location to stay. Low key. Just loved it",
       stars: 5
     },
     {
-      name: "Emily Rodriguez",
-      text: "Perfect weekend getaway! The swimming area was refreshing and the camp store had everything we needed.",
-      stars: 4
+      name: "Brian",
+      text: "Perfect place for a quick easy getaway in the woods. Feels secluded but you’re not that far away from civilization. Carol was friendly and accommodating. Would definitely recommend for those looking for something in between regular old camping and all out “glamping”. As a backpacker, the trail was fun, challenging, and not too long.",
+      stars: 5
+    },
+    {
+      name: "Colt",
+      text: "The tent was a bit remote but if that's not what you're looking for in a camping trip I don't know what to tell you. Carol was very friendly and willing to help with anything we needed. Would definitely stay again.",
+      stars: 5
     }
   ];
 

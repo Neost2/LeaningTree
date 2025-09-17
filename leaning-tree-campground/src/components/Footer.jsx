@@ -8,16 +8,16 @@ function Footer() {
       <Container>
         <Row className="justify-content-between align-items-center">
           <Col md={4} className="mb-3 mb-md-0">
-            <h3 className="h5">Leaning Tree Campground</h3>
-            <p className="mb-0 small">Your premier camping destination since 1978</p>
+            <h3 className="h5">Leaning Tree Woods</h3>
+            <p className="mb-0 small">Your premier camping destination since 2021</p>
           </Col>
           
           <Col md={4} className="text-md-center mb-3 mb-md-0">
             <div className="d-flex justify-content-md-center">
-              <a href="#" className="text-white me-3" aria-label="Facebook">
+              <a href="https://www.facebook.com/leaningtreewoodscampground" className="text-white me-3" aria-label="Facebook">
                 <FaFacebook className="fs-4" />
               </a>
-              <a href="#" className="text-white me-3" aria-label="Twitter">
+              {/* <a href="#" className="text-white me-3" aria-label="Twitter">
                 <FaTwitter className="fs-4" />
               </a>
               <a href="#" className="text-white me-3" aria-label="Instagram">
@@ -25,7 +25,7 @@ function Footer() {
               </a>
               <a href="#" className="text-white" aria-label="YouTube">
                 <FaYoutube className="fs-4" />
-              </a>
+              </a> */}
             </div>
           </Col>
           
