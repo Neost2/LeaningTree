@@ -9,7 +9,7 @@ function Footer() {
         <Row className="justify-content-between align-items-center">
           <Col md={4} className="mb-3 mb-md-0">
             <h3 className="h5">Leaning Tree Woods</h3>
-            <p className="mb-0 small">Your premier camping destination since 2021</p>
+            <p className="mb-0 small">Your premier glamping destination since 2021</p>
           </Col>
           
           <Col md={4} className="text-md-center mb-3 mb-md-0">
@@ -30,7 +30,7 @@ function Footer() {
           </Col>
           
           <Col md={4} className="text-md-end">
-            <p className="mb-0 small">&copy; {new Date().getFullYear()} Leaning Tree Campground. All rights reserved.</p>
+            <p className="mb-0 small">&copy; {new Date().getFullYear()} Leaning Tree Woods. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
