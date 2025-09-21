@@ -1,0 +1,40 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "PublicReadGetObject",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::leaningtree/*"
+		},
+		{
+			"Sid": "S3PolicyStmt-DO-NOT-MODIFY-1757984666797",
+			"Effect": "Allow",
+			"Principal": {
+				"Service": "logging.s3.amazonaws.com"
+			},
+			"Action": "s3:PutObject",
+			"Resource": "arn:aws:s3:::leaningtree/*",
+			"Condition": {
+				"StringEquals": {
+					"aws:SourceAccount": "664660631652"
+				}
+			}
+		},
+		{
+			"Sid": "AllowCloudFrontServicePrincipal",
+			"Effect": "Allow",
+			"Principal": {
+				"Service": "cloudfront.amazonaws.com"
+			},
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::leaningtree/*",
+			"Condition": {
+				"StringEquals": {
+					"AWS:SourceArn": "arn:aws:cloudfront::664660631652:distribution/E3VNP48CAE64KA"
+				}
+			}
+		}
+	]
+}
